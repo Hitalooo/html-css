@@ -47,6 +47,7 @@ header a, footer a {
 
 header a::hover, footer a::hover {
   text-decoration: underline;
+  color: blue;
 }
 
 section {
@@ -96,4 +97,11 @@ footer {
   text-align: center;
   color: white;
   padding: 10px;
+  height: 50px;
+  justify-content: center;
+}
+
+.footer {
+    justify-content: center;
+    margin-top: 20px;
 }
